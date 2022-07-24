@@ -1,5 +1,5 @@
 * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -18,15 +18,18 @@ body {
 .header {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    flex: 1 0 50%;
 }
 
 .header-upper {
     display: flex;
-    justify-content: space-around;
+    padding: 0 100px;
 }
 
 .header-lower {
-
+    justify-content: space-between;
+    padding: 0 100px;
 }
 
 .footer {
@@ -37,7 +40,7 @@ body {
 .header-links {
     display: flex;
     justify-content: space-between;
-    gap: 16px;
+    gap: 24px;
 }
 
 h1 {
@@ -45,6 +48,7 @@ h1 {
     font-weight: 800;
     color: #f9faf8;
     margin: 0;
+    padding: 0;
 }
 
 h2 {
@@ -61,9 +65,11 @@ h2 {
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
+    margin-right: auto;
 }
 
 .header-link {
+    margin-left: auto;
     color: rgba(107,114,128,1);
 }
 
@@ -73,12 +79,17 @@ h2 {
 }
 
 .container-two-col {
-    padding: 16px;
     background-color: #1f2937;
     display: flex;
     justify-content: center;
+    align-content: center;
     flex-wrap: wrap;
     gap: 16px;
+}
+
+.header-img {
+    height: 80%;
+    z-index: 1;
 }
 
 .call-to-action{
@@ -91,7 +102,8 @@ input {
     color: #f9faf8;
     border-radius: 10px;
     font-size: 20px;
-    padding: 8px 48px;
+    padding: 8px 24px;
+    margin-top: 10px;
 }
 
 .col {
@@ -103,13 +115,19 @@ input {
     display: flex;
 }
 
-.col-1 {
+.row-1 {
     justify-content: space-between;
-    width: 500px;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    flex: 0 2 50%;
 }
 
 img {
     width: 500px;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 a {
@@ -119,6 +137,8 @@ a {
 
 .npc-info-col {
     align-items: center;
+    padding: 48px;
+    padding-bottom: 80px;
 }
 
 .info-col {
@@ -157,4 +177,28 @@ a {
 .inner-col {
     align-items: center;
     gap: 10px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 80px 48px;
+    align-items: center;
+    gap: 48px;
+}
+
+.quote-container {
+    padding: 0 200px;
+}
+
+.quote-row {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+    flex: 0 1 50%;
+}
+
+.author {
+    font-size: 24px;
+    align-self: flex-end;
 }

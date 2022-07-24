@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100&display=swap" rel="stylesheet">
     <title>Landing Page</title>
 </head>
 <body>
@@ -13,27 +16,31 @@
             <div class="header-logo">NPC Logo</div>
                 
             <div class="header-links">
-                <a href="#">NPC link one</a>
-                <a href="#">NPC link two</a>
-                <a href="#">NPC link three</a>
+                <a href="#" class="header-link">NPC link one</a>
+                <a href="#" class="header-link">NPC link two</a>
+                <a href="#" class="header-link">NPC link three</a>
             </div>  
         </div>
-        <div class="col">
-            <div class="container-two-col">
 
-                <div class="col col-1">
+        <div class="col header-lower">
+            <div class="container-two-col">
+                <div class="row row-1">
+                    <div class="col col-1">
         
-                    <div class="hero"><h1>This is just an NPC website</h1></div>
-                    <div class="subtext">This website has some subtext that goes here uder the main title.
-                        It's a smaller font and the color is lower contrast.
+                        <div class="hero"><h1>This is just an NPC website</h1></div>
+                        <div class="subtext">This website has some <strong>problems</strong> that goes here under the main title.
+                            It's a smaller font and the color is lower contrast.
+                        </div>
+                        <div class="call-to-action">
+                            <input type="submit" name="Sign up" id="sign-up" value="Become NPC">
+                        </div>
                     </div>
-                    <div class="call-to-action">
-                        <input type="submit" name="Sign up" id="sign-up" value="Sign up">
-                    </div>
-                </div>
+                
+                
         
-                <div class="col">
-                    <img src="images/npc.webp" alt="">
+                    <div class="col header-img">
+                        <img src="images/npc.webp" alt="">
+                    </div>
                 </div>
         
             </div>
@@ -53,7 +60,7 @@
                 </div>
                 <div class="col inner-col">
                     <div class="img-border"><img class="img-info" src="images/skyrim-npc.webp" alt=""></div>
-                    <div class="npc-info-text">Skyrim NPC</div>
+                    <div class="npc-info-text">TESV: Skyrim NPC</div>
                 </div>
                 <div class="col inner-col">
                     <div class="img-border"><img class="img-info" src="images/witcher3-npc.webp" alt=""></div>
@@ -62,6 +69,43 @@
                 <div class="col inner-col">
                     <div class="img-border"><img class="img-info" src="images/real-world-npc.jpg" alt=""></div>
                     <div class="npc-info-text">Real World NPC</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col quote-section">
+            <div class="col quote-container">
+                <div class="row quote-row">
+                    Is that a god damned rocket launcher?!
+                </div>
+                <div class="row author">
+                    Police Officer, GTA V
+                </div>
+            </div>
+            <div class="col quote-container">
+                <div class="row quote-row">
+                    I used to be an adventurer like you, until someone stole my sweetrole.
+                </div>
+                <div class="row author">
+                    Something has gone horribly wrong!<br>
+                    no talk for this NPC!!! : S5NQ_8_Sending :t01_inn/TI<br>
+                    $ init 6
+                </div>
+            </div>
+            <div class="col quote-container">
+                <div class="row quote-row">
+                    Got their arses whipped like a Novigrad whore! 
+                </div>
+                <div class="row author">
+                    NPC, The Witcher 3
+                </div>
+            </div>
+            <div class="col quote-container">
+                <div class="row quote-row">
+                    What is better - to be born good, or to overcome your evil nature through great effort? 
+                </div>
+                <div class="row author">
+                    Paarthurnax, TESV: Skyrim
                 </div>
             </div>
         </div>
