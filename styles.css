@@ -22,6 +22,10 @@ body {
     flex: 1 0 50%;
 }
 
+.footer {
+    padding: 48px;
+}
+
 .header-upper {
     display: flex;
     padding: 0 100px;
