@@ -1,3 +1,3 @@
 # landing-page
 
-Just an NPC landing page. Nothing to see here folks!
+Just an [NPC landing page](https://rehhha.github.io/npc/). Nothing to see here folks!
